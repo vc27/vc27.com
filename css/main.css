@@ -1,0 +1,29 @@
+@import url(../css/bootstrap.css);
+@import url(../css/bootstrap-theme.css);
+/*
+on launch use these
+@import 'bootstrap';
+@import 'bootstrap-theme.css';
+*/
+/*Document*/
+/* line 13, ../sass/main.scss */
+html { height: 100%; }
+
+/* line 14, ../sass/main.scss */
+body { height: 100%; background: url("../img/bg-clouds.jpg") center top repeat-x; }
+
+/* line 15, ../sass/main.scss */
+a { color: #407fdc; -webkit-transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transition: all 0.1s ease-in; }
+
+/* line 16, ../sass/main.scss */
+a:hover { color: #4172b9; text-decoration: none; }
+
+/* line 17, ../sass/main.scss */
+.jumbotron { text-align: center; background: none; color: #fff; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.2); }
+/* line 19, ../sass/main.scss */
+.jumbotron p { color: #333; text-shadow: none; }
+
+/* line 22, ../sass/main.scss */
+.view-icons { text-align: center; font-size: 100px; color: #ccc; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.2); }
+/* line 24, ../sass/main.scss */
+.view-icons a { margin: 0 7px; }
