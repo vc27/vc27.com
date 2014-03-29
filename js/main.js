@@ -43,6 +43,14 @@ var childTheme = {
 				jQuery(this).removeClass('icon-github2').addClass('icon-github');
 			}
 		);
+		jQuery('.view-icons .icon-envelope').hover(
+			function() {
+				jQuery(this).removeClass('icon-envelope').addClass('icon-envelope-alt');
+			},
+			function() {
+				jQuery(this).removeClass('icon-envelope-alt').addClass('icon-envelope');
+			}
+		);
 		
 	}, // end navSwap : function
 	

@@ -1,25 +1,41 @@
-@import '../css/bootstrap.css';
-@import '../css/bootstrap-theme.css';
-/*
-on launch use these
 @import 'bootstrap';
-@import 'bootstrap-theme.css';
-*/
+@import 'bootstrap-theme';
+
 @mixin transition($transition) { -webkit-transition:$transition; -moz-transition:$transition; -o-transition:$transition; transition:$transition; }
 
 
 
 /*Document*/
 html { height:100%; }
-body { height:100%; background:url('../img/bg-clouds.jpg') center top repeat-x; }
-a { color:#407fdc; @include transition(all 0.1s ease-in); }
-a:hover { color:#4172b9; text-decoration:none; }
-.jumbotron {
-	text-align:center; background:none; color:#fff; text-shadow:0 3px 0 rgba(0,0,0,0.2);
-	p { color:#333; text-shadow:none; }
+body { text-align:center; height:100%; background:url('../img/bg-clouds.jpg') right top repeat-x; }
+a { color:#000; @include transition(all 0.1s ease-in); }
+a:hover { color:#333; text-decoration:none; }
+h1 { font-size:30px; }
+.head {
+	padding-bottom:30px; text-align:center; background:none; color:#fff; text-shadow:0 3px 0 rgba(0,0,0,0.2);
+	a { color:#fff; }
+	a:hover { color:#ccc; }
 }
-
-.view-icons {
-	text-align:center; font-size:100px; color:#ccc; text-shadow:0 3px 0 rgba(0,0,0,0.2);
-	a { margin:0 7px; }
+.ic { font-size:30px; margin:0 7px; }
+.row { padding-bottom:30px; }
+.row1 {
+	color:#fff;
+	a { color:#fff; }
+	a:hover { color:#ccc; }
+	.ic { text-shadow:0 1px 0 rgba(0,0,0,0.2); }
+}
+.row2 {
+	color:#407fdc;
+	a { color:#407fdc; }
+	a:hover { color:#4172b9; }
+}
+.row3 {
+	color:#ccc;
+	a { color:#ccc; }
+	a:hover { color:#eee; }
+}
+.foot { 
+	padding-top:60px; color:#eee; 
+	a { color:#eee; }
+	a:hover { color:#ccc; }
 }
